@@ -1,1 +1,6 @@
-# instagram-video-seek-bar-privacy
+Instagram Video Seek Bar（試作品）
+
+できること
+- Edgeで開いたInstagram Web版の動画に、白いシークバーを重ねて表示します。
+- バーをクリック／ドラッグすると、動画の再生位置を変更できます。
+- 動画の再生時間が取得できる場合だけ表示します。
