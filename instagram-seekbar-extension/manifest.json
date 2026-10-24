@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram Video Seek Bar",
+  "version": "1.0.0",
+  "description": "InstagramのWeb版で動画のシークバーを表示し、再生位置を変更できるようにします。",
+  "content_scripts": [
+    {
+      "matches": ["https://www.instagram.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

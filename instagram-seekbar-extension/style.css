@@ -1,0 +1,78 @@
+.igseek-overlay {
+  position: fixed !important;
+  z-index: 2147483647 !important;
+  height: 14px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-sizing: border-box !important;
+  pointer-events: auto !important;
+  opacity: 0.96;
+}
+
+.igseek-range {
+  --igseek-progress: 0%;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  display: block !important;
+  width: 100% !important;
+  height: 14px !important;
+  min-height: 14px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: none !important;
+  background: transparent !important;
+  cursor: pointer !important;
+  touch-action: pan-x !important;
+}
+
+.igseek-range::-webkit-slider-runnable-track {
+  height: 4px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: linear-gradient(to right, #ffffff var(--igseek-progress), rgba(255,255,255,.52) var(--igseek-progress)) !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,.45) !important;
+}
+
+.igseek-range::-moz-range-track {
+  height: 4px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  background: rgba(255,255,255,.52) !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,.45) !important;
+}
+
+.igseek-range::-moz-range-progress {
+  height: 4px !important;
+  border-radius: 999px !important;
+  background: #ffffff !important;
+}
+
+.igseek-range::-webkit-slider-thumb {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin-top: -3px !important;
+  border: 0 !important;
+  border-radius: 50% !important;
+  background: #ffffff !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,.45) !important;
+}
+
+.igseek-range::-moz-range-thumb {
+  width: 10px !important;
+  height: 10px !important;
+  border: 0 !important;
+  border-radius: 50% !important;
+  background: #ffffff !important;
+  box-shadow: 0 1px 4px rgba(0,0,0,.45) !important;
+}
+
+.igseek-range:focus-visible::-webkit-slider-thumb {
+  outline: 2px solid #0095f6 !important;
+  outline-offset: 2px !important;
+}
