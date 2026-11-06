@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Instagram Video Seek Bar 拡張機能のプライバシーポリシー / Privacy Policy">
+  <title>プライバシーポリシー | Instagram Video Seek Bar</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#fff; --fg:#22242b; --muted:#5b6170; --panel:#f7f7fb; --stroke:#e2e4eb; --accent:#b5287c; --accent2:#6f4ecf; }
+    @media (prefers-color-scheme:dark) { :root { --bg:#17171e; --fg:#f1f1f7; --muted:#bec0cc; --panel:#24242d; --stroke:#41414c; --accent:#ff88ca; --accent2:#bf9cff; } }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.75 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .stripe { height:5px; background:linear-gradient(90deg,#ffac4d,#ed4086,#a04fd7); }
+    main { max-width:920px; margin:0 auto; padding:44px 24px 72px; }
+    header { padding-bottom:22px; border-bottom:1px solid var(--stroke); }
+    .eyebrow { font-weight:700; color:var(--accent); letter-spacing:.04em; }
+    h1 { font-size:clamp(1.7rem,4vw,2.3rem); line-height:1.3; margin:10px 0; }
+    h2 { font-size:1.2rem; margin:32px 0 8px; }
+    p { margin:10px 0; }
+    ul { padding-left:1.4em; }
+    li { margin:6px 0; }
+    .muted { color:var(--muted); }
+    .summary { margin:24px 0; padding:18px 22px; border:1px solid var(--stroke); border-radius:14px; background:var(--panel); }
+    .summary strong { color:var(--accent); }
+    code { font-family:ui-monospace,SFMono-Regular,Consolas,monospace; overflow-wrap:anywhere; }
+    a { color:var(--accent2); }
+    .english { margin-top:52px; border-top:2px solid var(--stroke); padding-top:30px; }
+    footer { margin-top:50px; padding-top:18px; border-top:1px solid var(--stroke); color:var(--muted); font-size:.9rem; }
+  </style>
+</head>
+<body>
+  <div class="stripe"></div>
+  <main>
+    <header>
+      <div class="eyebrow">Instagram Video Seek Bar</div>
+      <h1>プライバシーポリシー</h1>
+      <p class="muted">最終更新日：2026年11月6日 ｜ 対象バージョン：1.3.2</p>
+    </header>
+    <div class="summary"><strong>概要：</strong>本拡張機能はユーザーの個人情報を開発者のサーバーへ収集・送信しません。Instagramページ内の動画・画像を機能の提供に必要な範囲で一時的に処理し、表示設定のみブラウザ内に保存します。</div>
+    <h2>1. 本拡張機能について</h2>
+    <p>「Instagram Video Seek Bar」（以下「本拡張機能」）は、InstagramのWeb版（<code>https://www.instagram.com/*</code>）で動画の再生位置を変更するシークバーやプレビュー、動画フレームのPNG保存、画像の拡大表示、画面幅に合わせた表示調整を提供するブラウザ拡張機能です。</p>
+    <h2>2. データへのアクセスと一時的な処理</h2>
+    <p>機能を提供するため、本拡張機能はInstagramのページ内の動画・画像要素と、それらのURL、再生時間、現在の再生位置、画面上の表示位置などをブラウザ内で一時的に参照・処理します。これらの情報を開発者のサーバーに収集・保存・送信する機能はありません。</p>
+    <p>動画プレビューの際にはページ上のメディアURLを利用してブラウザが動画を読み込む場合があります。これはInstagramや動画配信元との通常のメディア通信であり、開発者独自のサーバーへの送信ではありません。</p>
+    <h2>3. ブラウザ内に保存する設定</h2>
+    <p>シークバーの通常時・ホバー時の太さ、色、透明度、つまみの形状は、ブラウザの <code>chrome.storage.local</code> に保存されます。この設定は拡張機能の表示をカスタマイズするためだけに使用します。</p>
+    <h2>4. スクリーンショットの取り扱い</h2>
+    <p>ユーザーがスクリーンショット機能を操作した場合、動画フレームからPNG画像をブラウザ内で生成し、ユーザーの端末へダウンロードします。生成された画像を開発者へアップロードする機能はありません。ブラウザのセキュリティ制限により、一部の動画では保存できないことがあります。</p>
+    <h2>5. 収集しない情報</h2>
+    <p>本拡張機能は、氏名、連絡先、位置情報、ログイン認証情報、ダイレクトメッセージ、閲覧履歴などを開発者が収集する機能を持ちません。広告、アクセス解析、トラッキング、ユーザーデータの販売・共有を目的とする機能もありません。</p>
+    <h2>6. 権限と利用範囲</h2>
+    <ul>
+      <li><code>storage</code>：表示設定をブラウザ内へ保存するために使用します。</li>
+      <li><code>https://www.instagram.com/*</code>：InstagramのWeb版でシークバー・プレビュー・画像拡大などを表示するため、コンテンツスクリプトとCSSを適用します。</li>
+    </ul>
+    <p>本拡張機能はリモートコードを読み込んで実行しません。</p>
+    <h2>7. 第三者サービス</h2>
+    <p>本拡張機能には独自の広告・分析サービスは組み込まれていません。Instagramやメディア配信元によるデータの取り扱いについては、それぞれの提供元のプライバシーポリシーをご確認ください。</p>
+    <h2>8. 改定およびお問い合わせ</h2>
+    <p>本ポリシーは、本拡張機能の変更に応じて更新する場合があります。お問い合わせは、Chrome ウェブストアの本拡張機能掲載ページに記載された開発者サポート連絡先をご利用ください。</p>
+    <p class="muted">本拡張機能はInstagram／Metaの公式製品ではなく、同社から提供・承認されたものではありません。</p>
+
+    <section class="english" lang="en">
+      <div class="eyebrow">Instagram Video Seek Bar</div>
+      <h1>Privacy Policy</h1>
+      <p class="muted">Last updated: November 6, 2026 | Applies to version 1.3.2</p>
+      <div class="summary"><strong>Summary:</strong> The extension does not collect or transmit personal information to the developer's servers. It temporarily processes media information on Instagram pages within the browser and stores only display preferences locally.</div>
+      <h2>1. About the Extension</h2>
+      <p>Instagram Video Seek Bar adds seek controls, playback-position previews, PNG frame saving, image zooming, and responsive video display adjustments on the Instagram website (<code>https://www.instagram.com/*</code>).</p>
+      <h2>2. Temporary Access and Processing</h2>
+      <p>To provide its features, the extension temporarily accesses and processes video and image elements, their URLs, video durations and playback positions, and on-screen positions within the browser. It does not collect, store, or transmit this information to the developer's servers.</p>
+      <p>Media preview may cause the browser to load video from an Instagram or media delivery URL. This is ordinary media delivery traffic, not transmission to a developer-operated server.</p>
+      <h2>3. Locally Stored Preferences</h2>
+      <p>Seek bar thickness, hover thickness, color, opacity, and thumb style are saved using <code>chrome.storage.local</code> solely to customize the extension's appearance.</p>
+      <h2>4. Screenshots</h2>
+      <p>When a user requests a screenshot, a PNG image is generated from the video frame in the browser and downloaded to the user's device. The extension does not upload this image to the developer. Browser security restrictions can prevent saving some videos.</p>
+      <h2>5. Information Not Collected</h2>
+      <p>The extension does not collect names, contact details, location, login credentials, direct messages, browsing history, or other personal information for the developer. It does not include advertising, analytics, tracking, or user-data sale/sharing functionality.</p>
+      <h2>6. Permissions and Scope</h2>
+      <ul>
+        <li><code>storage</code>: saves visual preferences in the browser.</li>
+        <li><code>https://www.instagram.com/*</code>: allows content scripts and CSS to provide media controls on Instagram's web pages.</li>
+      </ul>
+      <p>The extension does not load or execute remote code.</p>
+      <h2>7. Third-Party Services</h2>
+      <p>The extension does not integrate independent advertising or analytics services. Instagram and media delivery providers have their own privacy practices and policies.</p>
+      <h2>8. Updates and Contact</h2>
+      <p>This policy may be updated as the extension changes. For privacy inquiries, use the developer support contact shown on the extension's Chrome Web Store listing.</p>
+      <p class="muted">This extension is not developed, endorsed, or provided by Instagram or Meta.</p>
+    </section>
+    <footer>© 2026 Instagram Video Seek Bar · Privacy Policy</footer>
+  </main>
+</body>
+</html>
